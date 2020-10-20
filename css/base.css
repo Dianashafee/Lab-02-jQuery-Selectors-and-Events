@@ -1,8 +1,11 @@
 main{
     margin-left:5%;
-    margin-right:5%;
+    /* margin-right:5%; */
+     display: flex;
+     flex-wrap: wrap; 
+     
+     
 }
-
 
     h2{
         font-family: 'Merienda', cursive;
@@ -14,9 +17,35 @@ main{
 
 
     h1{
+        font-size: 50px;
         font-family: 'Merienda', cursive;
-        margin-left: 35%;
+        /* background-color: teal; */
+       text-align: center;
+        height: 100px;
+        padding-right: 10%;
+        line-height: 100px;
+        color: teal;
+        background:
+        linear-gradient(135deg, #ffffff 25%, transparent 25%) -50px 0,
+        linear-gradient(225deg, #ffffff 25%, transparent 25%) -50px 0,
+        linear-gradient(315deg, #ffffff 25%, transparent 25%),
+        linear-gradient(45deg, #ffffff 25%, transparent 25%);
+      background-size: 100px 100px;
+      background-color: #E0F7FA;
+       
     }
+    #h1 :hover{
+        transition: .5s;
+        background-color:  rgba(233, 219, 32, 0.431);
+        color: teal;
+       
+    }
+    
     header{
         margin-bottom: 30px;
+    }
+
+    #h1{
+        width: 100%;
+        
     }
